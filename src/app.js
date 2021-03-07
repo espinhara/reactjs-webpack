@@ -1,9 +1,9 @@
 'use strict'
 import React from 'react'
 
-export default class Title extends React.Component{
+export class Title extends React.Component{
     render() {
-        return React.createElement('h1', null, 'Title')
+        return <h1>Title</h1>
     };
 }
    
