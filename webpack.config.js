@@ -21,6 +21,12 @@ module.exports={
         new webpack.HotModuleReplacementPlugin()
     ],
     module:{
+        preLoaders:[{
+            text: /\.js$/,
+            exclude: /node_modules/,
+            include: /src/,
+            loader: 'standard'
+        }],
         loaders:[{
             text: /\.js$/,
             exclude: /node_modules/,
