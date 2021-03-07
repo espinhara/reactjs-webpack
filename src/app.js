@@ -1,8 +1,11 @@
 'use strict'
+let React =require( 'react')
 
-function sum ( val1, val2){
-    return val1+val2
-}  
+var Title = React.createClass({
+    render() {
+        return React.createElement('h1', null, 'Title')
+    },
+})
 
-module.exports = sum
+module.exports = Title
    
