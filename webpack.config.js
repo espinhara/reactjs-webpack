@@ -10,4 +10,12 @@ module.exports={
         filename: 'bundle.js',
         publicPath:'/static/'
     },
+    module:{
+        loaders:[{
+            text: /\.js$/,
+            exclude: /node_modules/,
+            include: /src/,
+            loader:'babel'
+        }]
+    }
 }

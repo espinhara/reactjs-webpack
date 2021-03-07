@@ -1,11 +1,9 @@
 'use strict'
-let React =require( 'react')
+import React from 'react'
 
-var Title = React.createClass({
+export default class Title extends React.Component{
     render() {
         return React.createElement('h1', null, 'Title')
-    },
-})
-
-module.exports = Title
+    };
+}
    
