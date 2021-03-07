@@ -1,9 +1,11 @@
 'use strict'
 import React from 'react'
 
-export class Title extends React.Component{
-    render() {
-        return <h1>Title</h1>
-    };
-}
+const App = React.createClass({
+    render: function() {
+        return <h1>App</h1>
+    }
+})
+
+export default App
    
