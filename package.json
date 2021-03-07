@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/espinhara/reactjs-webpack.git",
-  "author": "Gabriel Espinhara Da Silva <gabrielespinhara13@gmail.com> ",
+  "author": "espinhara <gabrielespinhara13@gmail.com> ",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server",
